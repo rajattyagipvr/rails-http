@@ -1,7 +1,7 @@
 FROM ruby:2.6.3
 
-ENV PORT 3000
-EXPOSE 3000
+ENV PORT 8080
+EXPOSE 8080
 
 # Ref: https://www.engineyard.com/blog/using-docker-for-rails
 RUN mkdir -p /usr/src/app
